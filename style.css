@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Mars Attacks';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mars Attacks'), url('https://www.cufonfonts.com/cdn/webfont/mars-attacks/Mars+Attacks.woff?token=Qre359RF6wDTTdl6GIIOlkT0M4HGn0Ko') format('woff');
+}
+
+#america-title {
+text-align: center;
+}
+
+#map {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+
+}
+
+
