@@ -1,22 +1,31 @@
+
 @font-face {
     font-family: 'Mars Attacks';
     font-style: normal;
     font-weight: normal;
-    src: local('Mars Attacks'), url('https://www.cufonfonts.com/cdn/webfont/mars-attacks/Mars+Attacks.woff?token=Qre359RF6wDTTdl6GIIOlkT0M4HGn0Ko') format('woff');
-}
+    src: local('Mars Attacks'), url('Mars Attacks.woff') format('woff');
+    }
 
 #america-title {
 text-align: center;
+font-size: 150px;
+margin: 0;
+}
+
+#unclesam {
+    width: 30%;
+
+    margin: 100px 10px 0 50px
 }
 
 #map {
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
-h1 {
-    font-family: 'Liu Jian Mao Cao', cursive;
 
+form {
+    width: 50%;
+    float: right;
+    margin: 100px 50px 0 10px
 }
-
-

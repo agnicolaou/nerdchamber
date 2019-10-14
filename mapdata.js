@@ -248,9 +248,9 @@ var simplemaps_usmap_mapdata={
     "2": {
       lat: 40.731,
       lng: -73.988,
-      name: "Beetle House",
+      name: "Beetle House - NYC",
       url: "http://beetlehousenyc.com/",
-      description: "Hobby Enthusiast & St. Paul"
+      description: "308 East 6th Street New York, NY 10003"
     }
   },
   labels: {
