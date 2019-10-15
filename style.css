@@ -7,10 +7,24 @@
     }
 
 #america-title {
-text-align: center;
-font-size: 100px;
-margin: 0;
-font-family: 'Mars Attacks'
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Mars Attacks'
+}
+
+#america-title {
+    color: #000000;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+#america-title:hover {
+    color: #580202;
+    
 }
 
 #america-button {
