@@ -7,18 +7,23 @@
   <script src="mapdata.js"></script>
   <script src="usmap.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
 </head>
 
 <body>
 
-  <p id="america-title" style="font-family: 'Mars Attacks'">NeRd &nbsp;AcRosS&nbsp; AMEriCA!</p>
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col" id="america-title">NeRd &nbsp;AcRosS&nbsp; AMEriCA!</div>
+    </div>
+  </div>
 
   <div class="container">
-    <div id="map"></div>
+    <div class="row">
+      <div class="col-md-8" id="map"></div>
+    </div>
   </div>
 
   <!-- <p>This map was created and can be edited at <a href="http://simplemaps.com/custom/us/Q66oNfSe">http://simplemaps.com/custom/us/Q66oNfSe</a>
@@ -32,56 +37,53 @@
     
     <p>To learn how to install this map on your web page, see the <a href="http://simplemaps.com/docs">Documentation</a>.</p> -->
 
-    <div>
-    <img src="./images/nerdchamberunclesam.png" alt="Uncle Same with Pig Face" id="unclesam" class="img-fluid">
+  <br>
+  <hr>
+  <br>
 
-    <form>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./images/nerdchamberunclesam1.png" onmouseover="this.src='./images/nerdchamberunclesam2.png'"
+          onmouseout="this.src='./images/nerdchamberunclesam1.png'" alt="Uncle Same with Pig Face" id="unclesam"
+          class="img-fluid">
+      </div>
+      <div class="col-md-8">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu purus, accumsan sollicitudin dignissim
+          vitae, congue et nunc. Nullam fringilla lacus a finibus varius. Mauris auctor purus elit. Etiam ultricies
+          lorem eu risus gravida, in dignissim massa cursus. Ut eget ipsum ullamcorper, pharetra arcu quis, dictum ex.
+          Aenean eu sapien eget eros mattis egestas. Proin vel tellus a erat cursus auctor consequat eu dui. Suspendisse
+          eget ornare urna.
+        </p>
+
+        <p>
+          Nullam dictum ac magna sed fringilla. Nullam eu tristique nisl. Sed blandit scelerisque libero, sit amet
+          tristique magna posuere at. Cras tincidunt elit vel gravida ornare. Praesent auctor porta ex in efficitur.
+          Fusce pharetra condimentum risus euismod pellentesque. Nunc eget ante pellentesque odio commodo laoreet.
+        </p>
+
+        <p>
+          Vestibulum vel mauris molestie, bibendum orci ut, sodales eros. Proin scelerisque nisl nisi, sit amet
+          tristique sem sollicitudin eget. Aenean molestie cursus ligula, a molestie elit gravida id. Duis hendrerit.
+        </p>
+
+        <br>
+        <div class="shake-little">
+          <button type="button" class="btn btn-primary" id="america-button">ApPlY&nbsp; NoW!</button>
         </div>
-        <div class="form-group">
-          <label for="inputAddress">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </form>
+
+      </div>
+
     </div>
+
+  </div>
+
+
+
+
+
+
 
 </body>
 

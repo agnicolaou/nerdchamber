@@ -8,9 +8,9 @@ var simplemaps_usmap_mapdata={
     popups: "detect",
     
     //State defaults
-    state_description: "State Description",
+    state_description: "Available! Click to Apply!",
     state_color: "#000000",
-    state_hover_color: "#ffffff",
+    state_hover_color: "#580202",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
