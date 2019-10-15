@@ -77,9 +77,14 @@
     
 }
 
+#unclesam {
+    margin: 50px 0 30px 0;
+}
+
 #map {
     width: 80%;
     margin: auto;
+    
 }
 
 .shake-little {
