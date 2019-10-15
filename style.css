@@ -6,6 +6,28 @@
     src: local('Mars Attacks'), url('Mars Attacks.woff') format('woff');
     }
 
+#nav-override {
+    background-color: #580202;
+    color: white;
+    }
+
+#navbarlogo {
+    font-family: 'Mars Attacks';
+    color: white;
+    letter-spacing: 1px;
+    font-size: 4rem;
+    margin: 0 50px 0 35px;
+    }
+
+.nav-link.navbar,
+#override-nav-link {
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Special Elite', cursive;
+    font-size: 1rem;
+    margin: 0 10px 0 10px;
+    }
+
 #america-title {
     text-align: center;
     font-size: 100px;
