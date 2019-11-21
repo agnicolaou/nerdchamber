@@ -9,9 +9,10 @@
   <script src="usmap.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="./style/style.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
   <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
 </head>
 
@@ -92,8 +93,10 @@
             shop, music venue, coffee shop, etc.) in each of the 50 states.
           </p>
           <p>
-            The catch? Beside the fact that it's fun and it makes Nerd Chamber artist, A. Nic feel like he's hot
-            shit...this is a great way for your establishment to get some unique artwork on its walls for FREE while
+            <b>The catch?</b> Beside the fact that it's fun and it makes Nerd Chamber artist, A. Nic feel like he's
+            <i>hot
+              shit...</i>this is a great way for your establishment to get some unique artwork on its walls for FREE
+            while
             spreading awareness for our brand!
           </p>
           <p style="font-weight:bold">
@@ -108,61 +111,80 @@
             </li>
           </ul>
 
-          <!-- <p style="font-weight:bold" >
-              All approved applicants must pinky promise to:
-            </p>
-            <ul>
-                <li>Hang a small 6"x4" plackard (which will be provided) that includes the name of the piece, and Nerd Chamber site/soical media info beneath the displayed artwork.</li>
-                <li>Send us (or tag us in) a digital photo of the piece hanging in your establishment for us to post online.</li>
-                <li>Place a short stack of postcards (provided) on a counter-top for interested patrons to grab.</li>
-                <li>Most importantly, this is a deal of <span style="font-weight: bold">TRUST</span> which includes the establishment will not sell the artwork by any means. This is strictly for display purposes only.</li>
-              </ul>
 
-              <p>
-                In the event that the pinky promise above is broken, Nerd Chamber reserves the right to think you're a "dick."
-              </p> -->
           <!-- Apply Now Button -->
           <br>
           <div class="shake-little">
             <button type="button" class="btn btn-primary" id="america-button" data-toggle="modal"
               data-target="#exampleModal">ApPlY&nbsp; NoW!</button>
           </div>
+
           <!-- Application Modal application-modal class -->
           <div class="modal fade application-modal" id="exampleModal" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <h5 class="modal-title">Nerd Across America Application</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
+
+                <div id="application-details">
+                  <p style="font-weight:bold">
+                    All approved applicants must pinky promise to:
+                  </p>
+                  <ul>
+                    <li>Hang a small 6"x4" plackard (which will be provided) that includes the name of the piece, and
+                      Nerd Chamber site/soical media info beneath the displayed artwork.</li>
+                    <li>Send us (or tag us in) a digital photo of the piece hanging in your establishment for us to post
+                      online.</li>
+                    <li>Place a short stack of postcards (provided) on a counter-top for interested patrons to grab.
+                    </li>
+                    <li>Most importantly, this is a deal of <span style="font-weight: bold">TRUST</span> which includes
+                      the establishment will not sell the artwork by any means. This is strictly for display purposes
+                      only.</li>
+                  </ul>
+
+                  <p>
+                    In the event that the pinky promise above is broken, Nerd Chamber will not be your friend anymore.
+                  </p>
+                </div>
+
                 <div class="modal-body">
                   <form>
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        <label for="inputFullName">Full Name</label>
+                        <input type="text" class="form-control" id="inputFullName" placeholder="David Starsky" required>
                       </div>
                       <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        <label for="inputEmail4">Email</label>
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="d.starsky@email.com"
+                          required>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label for="inputAddress">Address</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+
+
+                    <div class="form-row">
+                      <div class="form-group col-md-4">
+                        <label for="inputBusinessName">Business Name</label>
+                        <input type="text" class="form-control" id="inputBusinessName" placeholder="Risky Business"
+                          required>
+                      </div>
+                      <div class="form-group col-md-8">
+                        <label for="inputAddress">Business Address</label>
+                        <input type="text" class="form-control" id="inputBusinessAddress" placeholder="1234 Main St"
+                          required>
+                      </div>
                     </div>
-                    <div class="form-group">
-                      <label for="inputAddress2">Address 2</label>
-                      <input type="text" class="form-control" id="inputAddress2"
-                        placeholder="Apartment, studio, or floor">
-                    </div>
+
+
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <input type="text" class="form-control" id="inputCity" placeholder="Bay City" required>
                       </div>
                       <div class="form-group col-md-4">
                         <label for="inputState">State</label>
@@ -225,20 +247,29 @@
                       </div>
                       <div class="form-group col-md-2">
                         <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
+                        <input type="text" class="form-control" id="inputZip" required>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Check me out
-                        </label>
+                    <div class="form-row">
+                      <div class="form-group col-md-4">
+                        <label for="inputBusinessWebsite">Business Website</label>
+                        <input type="text" class="form-control" id="inputBusinessWebsite"
+                          placeholder="www.RiskyBusiness.com" required>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputFacebook">Business Facebook</label>
+                        <input type="text" class="form-control" id="inputFacebook" placeholder="@riskybusiness">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputInstagram">Business Instagram</label>
+                        <input type="text" class="form-control" id="inputInstagram" placeholder="@riskybusiness">
                       </div>
                     </div>
+
                     <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Example textarea</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <label for="Reason">Why should Nerd Chamber choose your establishment?</label>
+                      <textarea class="form-control" id="inputReason" rows="3" required></textarea>
+
                     </div>
                   </form>
                 </div>
