@@ -79,8 +79,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="./images/nerdchamberunclesam1.png" onmouseover="this.src='./images/nerdchamberunclesam2.png'"
-            onmouseout="this.src='./images/nerdchamberunclesam1.png'" alt="Uncle Same with Pig Face" class="img-fluid">
+          <img id="unclesampic" src="./images/nerdchamberunclesam1.png" onmouseover="changeImg()"
+            onmouseout="changeImg2()" alt="Uncle Same with Pig Face" class="img-fluid">
         </div>
         <!-- Text -->
         <div class="col-md-8">
@@ -115,7 +115,7 @@
           <!-- Apply Now Button -->
           <br>
           <div class="shake-little">
-            <button type="button" class="btn btn-primary" id="america-button" data-toggle="modal"
+            <button type="button" onmouseover="changeImg()" onmouseout="changeImg2()" class="btn btn-primary" id="america-button" data-toggle="modal"
               data-target="#exampleModal">ApPlY&nbsp; NoW!</button>
           </div>
 
@@ -285,6 +285,19 @@
     </div>
   </div>
 
+
+  <script>
+function changeImg(){
+document.getElementById("unclesampic").setAttribute("src","./images/nerdchamberunclesam2.png");
+}
+
+function changeImg2(){
+document.getElementById("unclesampic").setAttribute("src","./images/nerdchamberunclesam1.png");
+}
+  </script>
+
+
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
