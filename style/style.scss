@@ -83,7 +83,64 @@ li {
             background-color: $bloodred;
         }
     }
+}
 
+#modal-close {
+  color: white;
+        margin: auto;
+        display: block;
+        font-family: $brandfont;
+        font-size: 50px;
+        border-radius: 10px;
+        letter-spacing: 2px;
+        padding: 0 25px 0 25px;
+        border: 0px;
+        width: 20%;
+        box-shadow: none;
+            background-color: #000000;
+            -o-transition:.5s;
+            -ms-transition:.5s;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+            transition:.5s;
+
+        &:hover {
+            background-color: $bloodred;
+        }
+}
+
+#modal-submit {
+  color: white;
+        margin: auto;
+        display: block;
+        font-family: $brandfont;
+        font-size: 50px;
+        border-radius: 10px;
+        letter-spacing: 2px;
+        padding: 0 25px 0 25px;
+        border: 0px;
+        width: 20%;
+        box-shadow: none;
+            background-color: #000000;
+            -o-transition:.5s;
+            -ms-transition:.5s;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+            transition:.5s;
+
+        &:hover {
+            background-color: $bloodred;
+        }
+}
+
+.close {
+        &:hover {
+          color: $bloodred;
+        }
+        
+        &:focus {
+          outline: none;
+        }
 }
 
 #unclesam {
@@ -250,3 +307,4 @@ label {
     padding: 16px 36px;
     background: $lightgray;
 }
+

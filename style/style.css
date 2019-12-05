@@ -73,6 +73,59 @@ li {
   background-color: #580202;
 }
 
+#modal-close {
+  color: white;
+  margin: auto;
+  display: block;
+  font-family: "Mars Attacks";
+  font-size: 50px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  padding: 0 25px 0 25px;
+  border: 0px;
+  width: 20%;
+  box-shadow: none;
+  background-color: #000000;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#modal-close:hover {
+  background-color: #580202;
+}
+
+#modal-submit {
+  color: white;
+  margin: auto;
+  display: block;
+  font-family: "Mars Attacks";
+  font-size: 50px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  padding: 0 25px 0 25px;
+  border: 0px;
+  width: 20%;
+  box-shadow: none;
+  background-color: #000000;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#modal-submit:hover {
+  background-color: #580202;
+}
+
+.close:hover {
+  color: #580202;
+}
+.close:focus {
+  outline: none;
+}
+
 #unclesam {
   margin: 50px 0 30px 0;
 }
