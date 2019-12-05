@@ -8,13 +8,14 @@ var simplemaps_usmap_mapdata={
     popups: "detect",
     
     //State defaults
-    state_description: "Available! Click to Apply!",
+    state_description: "",
     state_color: "#000000",
     state_hover_color: "#580202",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
     all_states_zoomable: "yes",
+
     
     //Location defaults
     location_description: "Add location markers using latitude and longitude!",

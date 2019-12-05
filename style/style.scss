@@ -137,10 +137,14 @@ li {
         &:hover {
           color: $bloodred;
         }
-        
+
         &:focus {
           outline: none;
         }
+}
+
+.tspan {
+  color: white;
 }
 
 #unclesam {

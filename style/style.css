@@ -126,6 +126,10 @@ li {
   outline: none;
 }
 
+.tspan {
+  color: white;
+}
+
 #unclesam {
   margin: 50px 0 30px 0;
 }
